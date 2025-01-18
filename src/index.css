@@ -1,0 +1,46 @@
+body {
+  background-color: #f8f9fa; /* Light gray background */
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #343a40; /* Dark gray for headings */
+  font-weight: bold;
+}
+
+.card {
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.btn {
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+input, select, textarea {
+  border-radius: 5px;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  border-color: #80bdff;
+}
+
+.list-group-item {
+  border: 1px solid #dee2e6;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.list-group-item h5 {
+  color: #007bff; /* Highlight product names in blue */
+}
+
+.list-group-item p {
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+  color: #6c757d; /* Subtle gray for descriptions */
+}
